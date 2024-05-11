@@ -67,7 +67,7 @@ const DashboardLinks = () => {
       >
         <Box sx={{ display: "flex", alignItems: "center", gap: "10px" }}>
           <DeveloperBoardIcon />
-          <Link href="/development">Developments</Link>
+          <Link href="/">Developments</Link>
         </Box>
       </Box>
       {/* ------------------------------ */}

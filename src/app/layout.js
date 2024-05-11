@@ -1,8 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { Container, Grid } from "@mui/material";
+import { Box, Container, Grid } from "@mui/material";
 import Link from "next/link";
 import DashboardLinks from "@/components/DashboardLinks/DashboardLinks";
+import DensityMediumIcon from "@mui/icons-material/DensityMedium";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,14 +17,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Container>
-          <Grid container sx={{ marginTop: "20px", }} spacing={1} >
+          <Grid container sx={{ marginTop: "4px", }} spacing={1}>
             <Grid
               item
               xs={12}
               sx={{
                 backgroundColor: "black",
                 height: "full",
-                borderRadius: "10px",
+                borderRadius: "5px",
               }}
               sm={4}
             >
